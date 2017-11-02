@@ -3,69 +3,84 @@
 <head>
 	<meta charset="utf-8">
 	<title>Aaron Pietsch</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet"
+  	 href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
 </head>
 <body>
-	<header>
-		<h1>
-			<a href="index.html">Aaron Pietsch</a>
+	<header class = "primary-header contain group">
+		<h1 class = "logo">
+			<a href="index.html">Aaron <br> Pietsch</a>
 		</h1>
-		<h3>Full-Stack Developer with design and financial expertise</h3>
+		<h3 class="tagline">Full-Stack Developer</h3>
 
-		<nav>
-			<a href="index.html">Home</a>
-			<a href="experience.html">Experience</a>
-			<a href="projects.html">Projects</a>
-			<a href="bio.html">Bio</a>
-			<a href="">Resume</a>	
-			<a href="contact.html">Contact</a>
+		<nav class="nav primary-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li><!--  
+			--><li><a href="experience.html">Experience</a></li><!--  
+			--><li><a href="projects.html">Projects</a></li><!--  
+			--><li><a href="bio.html">Bio</a></li><!--  
+			--><li><a href="">Resume</a></li><!--  
+			--><li><a href="contact.html">Contact</a></li>
+			</ul>
 		</nav>
 
 	</header>
-	<section>
-		<h2>Dedicated to the craft of building applications</h2>
-		<p>Aaron possesses formal experience in web development, and consistantly pushes independent projects</p>
+	<section class = "hero contain">
+		<h2>Dedicated to building exceptional applications</h2>
+		<p>Aaron has experience in client-facing web development, and the motivation to consistently push personal projects</p>
 
-		<a href="contact.html">Contact Aaron</a>
+		<a class="btn btn-alt" href="contact.html">View Portfolio</a>
 	</section>
 
-	<section>
+	<section class = "row">
+	<div class = "grid">
 
-		<section>
+		<!-- Experience -->
+
+		<section class = "teaser col-1-3">
 			<a href="experience.html">
 				<h5>Experience</h5>
-				<h3>Several diverse, dynamic, and technical roles</h3>
-				<p>Including roles as a Project Manager, Data Analyst, and more</p>
+				<h3>Featuring several dynamic and technical past roles</h3>
 			</a>
-		</section>
+				<p>Including roles as a Project Manager, Data Analyst, and more</p>
+		</section><!--
 
-		<section>
+		Projects
+
+		--><section class = "teaser col-1-3">
 			<a href="projects.html">
 				<h5>Projects</h5>
 				<h3>Various applications built on different frameworks</h3>
-				<p>Projects include a stock trading app and a basic blockchain (Flask)
-			</a>	
-		</section>
+			</a>
+				<p>Projects include a stock trading app and a basic blockchain (Flask)	
+		</section><!--
 
-		<section>
+		Bio
+
+		--><section class = "teaser col-1-3">
 			<a href="bio.html">
 				<h5>Bio</h5>
-				<h3>Get to know Aaron better</h3>
-				<p>Born in Hawaii, Aaron's interests include rugged travel and eating green food</p>
+				<h3>Get to know Aaron</h3>
 			</a>
+				<p>Born in Hawaii, Aaron's interests include traveling the narrow road and eating green food</p>
 		</section>
 
+	</div>
 	</section>
 
-	<footer>
+	<footer class = "primary-footer contain group">
 		<small>&copy; Aaron Pietsch</small>
 
-		<nav>
-			<a href="index.html">Home</a>
-			<a href="experience.html">Experience</a>
-			<a href="projects.html">Projects</a>
-			<a href="bio.html">Bio</a>
-			<a href="">Resume</a> <!--need PDF -->
-			<a href="contact.html">Contact</a>
+		<nav class = "nav">
+			<ul>
+				<li><a href="index.html">Home</a></li><!--  
+			--><li><a href="experience.html">Experience</a></li><!--  
+			--><li><a href="projects.html">Projects</a></li><!--  
+			--><li><a href="bio.html">Bio</a></li><!--  
+			--><li><a href="">Resume</a></li><!--  
+			--><li><a href="contact.html">Contact</a></li>
+			</ul>
 		</nav>
 
 	</footer>
