@@ -61,7 +61,7 @@ body {
 	background: -moz-radial-gradient(#ffffff, #d8f4f9);
 	background: radial-gradient(#ffffff, #d8f4f9);
 	color: #888;
-	font: 300 16px/22px "Lato", "Open Sans", Helvetica, Arial, sans-serif;
+	font: 400 16px/22px "Lato", "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 /*
@@ -179,6 +179,14 @@ p a {
 	color: #a9b2b9;
 }
 
+.teaser img {
+	border-radius: 5px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 22px;
+	max-width: 100%;
+}
+
 /*
 ==========
 Buttons
@@ -253,6 +261,11 @@ Primary Header
 .primary-footer a:hover {
 	color: #648880;
 }
+
+/*.primary-header h5 {
+	float: left;
+	top: 50%;
+}*/
 
 /*
 =======
@@ -350,4 +363,64 @@ Primary Footer
 .primary-footer small {
 	float: left;
 	font-weight: 400;
+}
+
+/*
+  ========================================
+  Experience
+  ========================================
+*/
+  
+.hidden {
+	display: none;
+}
+
+.job-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
+
+.job-info img {
+  height: 130px;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
+}
+
+
+.job {
+	margin-bottom: 44px;
+}
+
+.preview {
+	padding: 50px 0;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #f4f4e4;
+}
+
+.grid {
+	width: 80%;
+}
+
+.prev {
+	padding: 20px 0;
+}
+
+.prev:hover {
+	background-color: #f1f1f1;
+	box-shadow: 1px 1px 1px 1px ;
+
+}
+
+/*
+  ========================================
+  Experience
+  ========================================
+*/
+
+.bio {
+	text-align: center;
 }
