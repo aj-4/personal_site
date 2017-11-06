@@ -163,7 +163,7 @@ Links
 */
 
 a: hover {
-	color: #a9b2b9;
+	color: black;
 }
 
 a {
@@ -176,7 +176,7 @@ p a {
 }
 
 .teaser a:hover h3 {
-	color: #a9b2b9;
+	color: black;
 }
 
 .teaser img {
@@ -211,6 +211,18 @@ Buttons
 .btn-alt:hover {
 	background: #658780;
 	color: #e6fbff;
+}
+
+.btn-default {
+  border: 0;
+  background: #648880;
+  padding: 11px 30px;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto;
+}
+.btn-default:hover {
+  background: #77a198;
 }
 
 /*
@@ -281,6 +293,8 @@ Hero
 
 .hero h2 {
 	font-size: 36px;
+	color: #f1f1f1;
+	transition: 1s;
 }
 
 .hero p {
@@ -295,6 +309,8 @@ LEADS
 */
 .lead {
 	text-align: center;
+	font-weight: 400;
+	letter-spacing: 4px;
 }
 
 .lead p {
@@ -387,8 +403,8 @@ Primary Footer
   height: 130px;
   margin: -66px 0 22px 0;
   vertical-align: top;
+  opacity: .85;
 }
-
 
 .job {
 	margin-bottom: 44px;
@@ -407,20 +423,95 @@ Primary Footer
 
 .prev {
 	padding: 20px 0;
+	transition: .25s;
+	
 }
 
 .prev:hover {
 	background-color: #f1f1f1;
-	box-shadow: 1px 1px 1px 1px ;
-
+	box-shadow: 1px 4px 8px 2px;
 }
 
+.j-desc {
+	display: none;
+	font-style: italic;
+	color: darkgrey;
+}
+
+.j-desc p {
+	color: #4c716d;
+}
+
+.j-tog {
+	cursor: pointer;
+	font-weight: bolder;
+	color: black;
+}
+
+.j-tog:hover {
+	cursor: pointer;
+}
+
+.prev.teaser {
+	cursor: default;
+}
 /*
   ========================================
-  Experience
+  Bio
   ========================================
 */
 
 .bio {
 	text-align: center;
+}
+
+.bio-section img {
+	border-radius: 50%;
+}
+
+/*
+  ========================================
+  Contact
+  ========================================
+*/
+
+form {
+	margin-bottom: 22px;
+}
+
+input, 
+select,
+textarea {
+	 font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.contact-group {
+	margin: 0 auto;
+	width: 33.3%;
+}
+.contact-group label {
+  color: #648880;
+  cursor: pointer;
+  font-weight: 400;
+}
+.contact-group input,
+.contact-group select,
+.contact-group textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+.contact-group input,
+.contact-group textarea {
+  width: 100%;
+}
+.contact-group select {
+  height: 34px;
+  width: 60px;
+}
+.contact-group textarea {
+  height: 78px;
 }
